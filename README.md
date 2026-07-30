@@ -1,5 +1,7 @@
 # @miskoune/translate
 
+[![npm](https://img.shields.io/npm/v/@miskoune/translate)](https://www.npmjs.com/package/@miskoune/translate)
+
 Type-safe translation utilities for React projects, built on [i18next](https://www.i18next.com/) and [react-i18next](https://react.i18next.com/).
 
 ## Installation
