@@ -1,6 +1,6 @@
 {
   "name": "@miskoune/translate",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Type-safe translation utilities for React projects, built on i18next.",
   "type": "module",
   "main": "./dist/index.js",
