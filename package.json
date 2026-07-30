@@ -1,0 +1,68 @@
+{
+  "name": "@miskoune/translate",
+  "version": "0.0.0",
+  "description": "Type-safe translation utilities for React projects, built on i18next.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "keywords": [
+    "translate",
+    "translation",
+    "i18n",
+    "i18next",
+    "react",
+    "typescript"
+  ],
+  "author": "miskoune",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miskoune/translate.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build",
+    "prepare": "husky",
+    "release": "semantic-release"
+  },
+  "dependencies": {
+    "i18next": "^25.8.14",
+    "react-i18next": "^16.5.4"
+  },
+  "peerDependencies": {
+    "react": ">=19",
+    "react-dom": ">=19",
+    "typescript": ">=5"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.1",
+    "@commitlint/config-conventional": "^21.2.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@types/node": "^26.1.1",
+    "@types/react": "^19.0.0",
+    "conventional-changelog-conventionalcommits": "^10.2.1",
+    "husky": "^9.1.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "semantic-release": "^25.0.8",
+    "typescript": "^7.0.2"
+  }
+}
